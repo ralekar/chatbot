@@ -4,13 +4,13 @@ from slackclient import SlackClient
 import urllib2,json
 from aylienapiclient import textapi
 
-SUMMARY_APP_NAME = 'SDSRA_1'
-SUMMARY_APP_ID = 'f99d0f64'
-SUMMARY_APP_KEY = '85a678c08a333c2746b5062bfebb6775'
+SUMMARY_APP_NAME= 'xxxxx'
+SUMMARY_APP_ID = ''
+SUMMARY_APP_KEY = ''
 
 # starterbot's ID as an environment variable
-BOT_ID ='U41MFDS82' # os.environ.get("BOT_ID")
-SLACK_BOT_TOKEN = 'xoxb-137729468274-nE42BHXg5grCCLmdrdPbOCs3'
+BOT_ID =os.environ.get("BOT_ID")
+SLACK_BOT_TOKEN = ''
 # constants
 AT_BOT = "<@" + BOT_ID + ">"
 SUMMARY_COMMAND = "summarize"
@@ -26,10 +26,10 @@ sortby = "latest"
 # instantiate Slack & Twilio clients
 slack_client = SlackClient(SLACK_BOT_TOKEN)
 
-news_api_key = '3915fa98b65d4afa8ee7dc9c9ab26d1a'
+news_api_key = 'xxx'
 news_url = 'https://newsapi.org/v1/articles'
 diffbot_url = 'https://api.diffbot.com/v3/article'
-diffbot_token = '5183118dacef913be45ea51e99e35466'
+diffbot_token = ''
 summaryClient = textapi.Client(SUMMARY_APP_ID, SUMMARY_APP_KEY)
 
 
