@@ -1,9 +1,10 @@
 # ChatBot
-Code
+
+##Code
 Creating a Slack Chat bot that news from various sources and summarizes them
 
 
-Papers and Articles on chatbots
+##Papers and Articles on chatbots
 
 https://www.microsoft.com/en-us/research/project/dialog-and-conversational-systems-research/
 
